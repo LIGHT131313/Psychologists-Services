@@ -4,8 +4,8 @@ Psychologists Services is an application for a company that offers to use the
 services of psychologists.
 
 Technical task
-[<img src="/assets/gdocs.svg" alt="gdocs" width="22" height="30" />](https://docs.google.com/document/d/1PrTxBn6HQbb0Oz17g5_zvyLGIOZg0TIP3HPaEEp6ZLs/edit)&nbsp;&nbsp;&nbsp;Layout
-[<img src="/assets/figma.svg" alt="gdocs" width="30" height="30" />](https://www.figma.com/file/I5vjNb0NsJOpQRnRpMloSY/Psychologists.Services?type=design&node-id=0-1&mode=design&t=yo2vZvDwGE29z7w9-0)
+[<img style='vertical-align: middle' src="/assets/gdocs.svg" alt="gdocs" width="22" height="30" />](https://docs.google.com/document/d/1PrTxBn6HQbb0Oz17g5_zvyLGIOZg0TIP3HPaEEp6ZLs/edit)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Layout
+[<img style='vertical-align: middle' src="/assets/figma.svg" alt="gdocs" width="30" height="30" />](https://www.figma.com/file/I5vjNb0NsJOpQRnRpMloSY/Psychologists.Services?type=design&node-id=0-1&mode=design&t=yo2vZvDwGE29z7w9-0)
 
 ## Table of Content
 
@@ -60,5 +60,5 @@ To run the application locally, follow these steps:
 ## Contributor
 
 - Serhii Kozhanov
-  [<img src="/assets/github.svg" alt="gdocs" width="30" height="30" />](https://github.com/LIGHT131313)&nbsp;
-  [<img src="/assets/linkedin.svg" alt="gdocs" width="30" height="30" />](https://www.linkedin.com/in/serhii-kozhanov/)
+  [<img style='vertical-align: middle' src="/assets/github.svg" alt="gdocs" width="30" height="30" />](https://github.com/LIGHT131313)&nbsp;
+  [<img style='vertical-align: middle' src="/assets/linkedin.svg" alt="gdocs" width="30" height="30" />](https://www.linkedin.com/in/serhii-kozhanov/)
