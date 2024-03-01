@@ -3,18 +3,9 @@
 Psychologists Services is an application for a company that offers to use the
 services of psychologists.
 
-<div style='display: flex'>
-    <p>Technical task</p>
-    <a style='padding-right: 12px' href="https://docs.google.com/document/d/1PrTxBn6HQbb0Oz17g5_zvyLGIOZg0TIP3HPaEEp6ZLs/edit" target="_blank"
-        rel="noreferrer">
-        <img src="./assets/gdocs.svg" alt="gdocs" width="22" height="30" />
-    </a>
-    <p>Layout</p>
-    <a href="https://www.figma.com/file/I5vjNb0NsJOpQRnRpMloSY/Psychologists.Services?type=design&node-id=0-1&mode=design&t=yo2vZvDwGE29z7w9-0"
-        target="_blank" rel="noreferrer">
-        <img src="./assets/figma.svg" alt="figma" width="30" height="30" />
-    </a>
-</div>
+Technical task
+[<img src="/assets/gdocs.svg" alt="gdocs" width="22" height="30" />](https://docs.google.com/document/d/1PrTxBn6HQbb0Oz17g5_zvyLGIOZg0TIP3HPaEEp6ZLs/edit)&nbsp;&nbsp;&nbsp;Layout
+[<img src="/assets/figma.svg" alt="gdocs" width="30" height="30" />](https://www.figma.com/file/I5vjNb0NsJOpQRnRpMloSY/Psychologists.Services?type=design&node-id=0-1&mode=design&t=yo2vZvDwGE29z7w9-0)
 
 ## Table of Content
 
@@ -42,7 +33,7 @@ To run the application locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/LIGHT131313/test-redux-car-rent.git
+   git clone https://github.com/LIGHT131313/Psychologists-Services.git
    ```
 2. Install dependencies:
    ```bash
@@ -68,10 +59,6 @@ To run the application locally, follow these steps:
 
 ## Contributor
 
-<div style='display: flex'>
-    <p>Serhii Kozhanov</p>
-    <a style='padding-right: 12px' href="https://github.com/LIGHT131313" target="_blank" rel="noreferrer">
-        <img src="./assets/github.svg" alt="gdocs" width="30" height="30" /> </a>
-    <a href="https://www.linkedin.com/in/serhii-kozhanov/" target="_blank" rel="noreferrer">
-        <img src="./assets/linkedin.svg" alt="linkedin" width="30" height="30" /> </a>
-</div>
+- Serhii Kozhanov
+  [<img src="/assets/github.svg" alt="gdocs" width="30" height="30" />](https://github.com/LIGHT131313)&nbsp;
+  [<img src="/assets/linkedin.svg" alt="gdocs" width="30" height="30" />](https://www.linkedin.com/in/serhii-kozhanov/)
