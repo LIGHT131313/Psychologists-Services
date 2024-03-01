@@ -3,19 +3,17 @@
 Psychologists Services is an application for a company that offers to use the
 services of psychologists.
 
-[Technical task](https://docs.google.com/document/d/1PrTxBn6HQbb0Oz17g5_zvyLGIOZg0TIP3HPaEEp6ZLs/edit)
-||
-[Layout](https://www.figma.com/file/I5vjNb0NsJOpQRnRpMloSY/Psychologists.Services?type=design&node-id=0-1&mode=design&t=yo2vZvDwGE29z7w9-0)
-
-<div>
-<a href="https://docs.google.com/document/d/1PrTxBn6HQbb0Oz17g5_zvyLGIOZg0TIP3HPaEEp6ZLs/edit" target="_blank" rel="noreferrer">
-<p>Technical task</p>
-<img src="./assets/gdocs.svg" alt="gdocs" width="22" height="30"/>
-</a>
-<p>Layout</p>
-<a href="https://www.figma.com/file/I5vjNb0NsJOpQRnRpMloSY/Psychologists.Services?type=design&node-id=0-1&mode=design&t=yo2vZvDwGE29z7w9-0" target="_blank" rel="noreferrer">
-<img src="./assets/figma.svg" alt="figma" width="30" height="30"/>
-</a>
+<div style='display: flex'>
+    <p>Technical task</p>
+    <a style='padding-right: 12px' href="https://docs.google.com/document/d/1PrTxBn6HQbb0Oz17g5_zvyLGIOZg0TIP3HPaEEp6ZLs/edit" target="_blank"
+        rel="noreferrer">
+        <img src="./assets/gdocs.svg" alt="gdocs" width="22" height="30" />
+    </a>
+    <p>Layout</p>
+    <a href="https://www.figma.com/file/I5vjNb0NsJOpQRnRpMloSY/Psychologists.Services?type=design&node-id=0-1&mode=design&t=yo2vZvDwGE29z7w9-0"
+        target="_blank" rel="noreferrer">
+        <img src="./assets/figma.svg" alt="figma" width="30" height="30" />
+    </a>
 </div>
 
 ## Table of Content
@@ -40,7 +38,7 @@ The app consists of 3 pages:
 
 ## Getting Started
 
-### `To run the application locally, follow these steps`
+To run the application locally, follow these steps:
 
 1. Clone the repository:
    ```bash
@@ -70,23 +68,10 @@ The app consists of 3 pages:
 
 ## Contributor
 
-- Serhii Kozhanov [GitHub](https://github.com/LIGHT131313) ||
-[LinkedIn](https://www.linkedin.com/in/serhii-kozhanov/)
-<div>
-<a href="https://github.com/LIGHT131313" target="_blank" rel="noreferrer">
-<img src="./assets/github.svg" alt="gdocs" width="30" height="30"/>
-</a>
-<a href="https://www.linkedin.com/in/serhii-kozhanov/" target="_blank" rel="noreferrer">
-<img src="./assets/linkedin.svg" alt="linkedin" width="30" height="30"/>
-</a>
-</div>
-
----
-
-Serhii Kozhanov <div>
-<a href="https://github.com/LIGHT131313" target="_blank" rel="noreferrer">
-<img src="./assets/github.svg" alt="gdocs" width="30" height="30"/> </a>
-<a href="https://www.linkedin.com/in/serhii-kozhanov/" target="_blank" rel="noreferrer">
-<img src="./assets/linkedin.svg" alt="linkedin" width="30" height="30"/> </a>
-
+<div style='display: flex'>
+    <p>Serhii Kozhanov</p>
+    <a style='padding-right: 12px' href="https://github.com/LIGHT131313" target="_blank" rel="noreferrer">
+        <img src="./assets/github.svg" alt="gdocs" width="30" height="30" /> </a>
+    <a href="https://www.linkedin.com/in/serhii-kozhanov/" target="_blank" rel="noreferrer">
+        <img src="./assets/linkedin.svg" alt="linkedin" width="30" height="30" /> </a>
 </div>
