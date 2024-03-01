@@ -1,113 +1,80 @@
-# React homework template
+# Psychologists Services
 
-Этот проект был создан при помощи
-[Create React App](https://github.com/facebook/create-react-app). Для знакомства
-и настройки дополнительных возможностей
-[обратись к документации](https://facebook.github.io/create-react-app/docs/getting-started).
+Psychologists Services is an application for a company that offers to use the
+services of psychologists.
 
-## Создание репозитория по шаблону
+[Technical task](https://docs.google.com/document/d/1PrTxBn6HQbb0Oz17g5_zvyLGIOZg0TIP3HPaEEp6ZLs/edit)
+||
+[Layout](https://www.figma.com/file/I5vjNb0NsJOpQRnRpMloSY/Psychologists.Services?type=design&node-id=0-1&mode=design&t=yo2vZvDwGE29z7w9-0)
 
-Используй этот репозиторий организации GoIT как шаблон для создания репозитория
-своего проекта. Для этого нажми на кнопку `«Use this template»` и выбери опцию
-`«Create a new repository»`, как показано на изображении.
+<div>
+<a href="https://docs.google.com/document/d/1PrTxBn6HQbb0Oz17g5_zvyLGIOZg0TIP3HPaEEp6ZLs/edit" target="_blank" rel="noreferrer">
+<img src="./assets/gdocs.svg" alt="gdocs" width="50" height="50"/>
+</a>
+<a href="https://www.figma.com/file/I5vjNb0NsJOpQRnRpMloSY/Psychologists.Services?type=design&node-id=0-1&mode=design&t=yo2vZvDwGE29z7w9-0" target="_blank" rel="noreferrer">
+<img src="./assets/figma.svg" alt="figma" width="50" height="50"/>
+</a>
+</div>
 
-![Creating repo from a template step 1](./assets/template-step-1.png)
+## Table of Content
 
-На следующем шаге откроется страница создания нового репозитория. Заполни поле
-его имени, убедись что репозиторий публичный, после чего нажми кнопку
-`«Create repository from template»`.
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Technologies and packages Used](#technologies-and-packages-used)
+- [Contributor](#contributor)
 
-![Creating repo from a template step 2](./assets/template-step-2.png)
+## Features
 
-После того как репозиторий будет создан, необходимо перейти в настройки
-созданного репозитория на вкладку `Settings` > `Actions` > `General` как
-показано на изображении.
+The app consists of 3 pages:
 
-![Settings GitHub Actions permissions step 1](./assets/gh-actions-perm-1.png)
+1. "Home" page with the site title, company slogan, and a link that encourages
+   you to start working with the app and redirects to the "Psychologists" page.
+2. The "Psychologists" page, which contains a list of psychologists that the
+   user can sort alphabetically - in ascending order (from A to Z) or descending
+   order (from Z to A), by price - from the lowest price or the highest, by
+   popularity - from the lowest rating or the highest.
+3. Private page "Favorites" with psychologists who have been added by the user
+   to "favorites"
 
-Проскролив страницу до самого конца, в секции `«Workflow permissions»` выбери
-опцию `«Read and write permissions»` и поставь галочку в чекбоксе. Это
-необходимо для автоматизации процесса деплоя проекта.
+## Getting Started
 
-![Settings GitHub Actions permissions step 2](./assets/gh-actions-perm-2.png)
+### `To run the application locally, follow these steps`
 
-Теперь у тебя есть личный репозиторий проекта, со структурой файлов и папок
-репозитория-шаблона. Далее работай с ним как с любым другим личным репозиторием,
-клонируй его себе на компьютер, пиши код, делай коммиты и отправляй их на
-GitHub.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/LIGHT131313/test-redux-car-rent.git
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the app:
+   ```bash
+   npm start
+   ```
+4. Open [http://localhost:3000](http://localhost:3000) in your browser (Note:
+   the port may be changed if 3000 port is occupied by another website).
+5. To stop your local server enter in CLI: `control` + `C` for Mac or `CNTRL` +
+   `C` for Windows.
 
-## Подготовка к работе
+## Technologies Used
 
-1. Убедись что на компьютере установлена LTS-версия Node.js.
-   [Скачай и установи](https://nodejs.org/en/) её если необходимо.
-2. Установи базовые зависимости проекта командой `npm install`.
-3. Запусти режим разработки, выполнив команду `npm start`.
-4. Перейди в браузере по адресу [http://localhost:3000](http://localhost:3000).
-   Эта страница будет автоматически перезагружаться после сохранения изменений в
-   файлах проекта.
+- React
+- React Router
+- Redux Toolkit
+- Redux-persist
+- Axios (for API requests)
+- Styled-components
 
-## Деплой
+## Contributor
 
-Продакшн версия проекта будет автоматически проходить линтинг, собираться и
-деплоиться на GitHub Pages, в ветку `gh-pages`, каждый раз когда обновляется
-ветка `main`. Например, после прямого пуша или принятого пул-реквеста. Для этого
-необходимо в файле `package.json` отредактировать поле `homepage`, заменив
-`your_username` и `your_repo_name` на свои, и отправить изменения на GitHub.
-
-```json
-"homepage": "https://your_username.github.io/your_repo_name/"
-```
-
-Далее необходимо зайти в настройки GitHub-репозитория (`Settings` > `Pages`) и
-выставить раздачу продакшн версии файлов из папки `/root` ветки `gh-pages`, если
-это небыло сделано автоматически.
-
-![GitHub Pages settings](./assets/repo-settings.png)
-
-### Статус деплоя
-
-Статус деплоя крайнего коммита отображается иконкой возле его идентификатора.
-
-- **Желтый цвет** - выполняется сборка и деплой проекта.
-- **Зеленый цвет** - деплой завершился успешно.
-- **Красный цвет** - во время линтинга, сборки или деплоя произошла ошибка.
-
-Более детальную информацию о статусе можно посмотреть кликнув по иконке, и в
-выпадающем окне перейти по ссылке `Details`.
-
-![Deployment status](./assets/deploy-status.png)
-
-### Живая страница
-
-Через какое-то время, обычно пару минут, живую страницу можно будет посмотреть
-по адресу указанному в отредактированном свойстве `homepage`. Например, вот
-ссылка на живую версию для этого репозитория
-[https://goitacademy.github.io/react-homework-template](https://goitacademy.github.io/react-homework-template).
-
-Если открывается пустая страница, убедись что во вкладке `Console` нет ошибок
-связанных с неправильными путями к CSS и JS файлам проекта (**404**). Скорее
-всего у тебя неправильное значение свойства `homepage` в файле `package.json`.
-
-### Маршрутизация
-
-Если приложение использует библиотеку `react-router-dom` для маршрутизации,
-необходимо дополнительно настроить компонент `<BrowserRouter>`, передав в пропе
-`basename` точное название твоего репозитория. Слеш в начале строки обязателен.
-
-```jsx
-<BrowserRouter basename="/your_repo_name">
-  <App />
-</BrowserRouter>
-```
-
-## Как это работает
-
-![How it works](./assets/how-it-works.png)
-
-1. После каждого пуша в ветку `main` GitHub-репозитория, запускается специальный
-   скрипт (GitHub Action) из файла `.github/workflows/deploy.yml`.
-2. Все файлы репозитория копируются на сервер, где проект инициализируется и
-   проходит линтинг и сборку перед деплоем.
-3. Если все шаги прошли успешно, собранная продакшн версия файлов проекта
-   отправляется в ветку `gh-pages`. В противном случае, в логе выполнения
-   скрипта будет указано в чем проблема.
+- Serhii Kozhanov [GitHub](https://github.com/LIGHT131313) ||
+[LinkedIn](https://www.linkedin.com/in/serhii-kozhanov/)
+<div>
+<a href="https://github.com/LIGHT131313" target="_blank" rel="noreferrer">
+<img src="./assets/github.svg" alt="gdocs" width="50" height="50"/>
+</a>
+<a href="https://www.linkedin.com/in/serhii-kozhanov/" target="_blank" rel="noreferrer">
+<img src="./assets/linkedin.svg" alt="figma" width="50" height="50"/>
+</a>
+</div>
