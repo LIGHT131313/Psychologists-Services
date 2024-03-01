@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/createra/static/css/main.c1cad30a.css",
+    "main.js": "/createra/static/js/main.1fb47db3.js",
+    "index.html": "/createra/index.html",
+    "main.c1cad30a.css.map": "/createra/static/css/main.c1cad30a.css.map",
+    "main.1fb47db3.js.map": "/createra/static/js/main.1fb47db3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1cad30a.css",
+    "static/js/main.1fb47db3.js"
+  ]
+}
