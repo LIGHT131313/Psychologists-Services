@@ -3,15 +3,15 @@
 Psychologists Services is an application for a company that offers to use the
 services of psychologists.
 
-Technical task
-[<img style='vertical-align: middle' src="/assets/gdocs.svg" alt="gdocs" width="22" height="30" />](https://docs.google.com/document/d/1PrTxBn6HQbb0Oz17g5_zvyLGIOZg0TIP3HPaEEp6ZLs/edit)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Layout
-[<img style='vertical-align: middle' src="/assets/figma.svg" alt="gdocs" width="30" height="30" />](https://www.figma.com/file/I5vjNb0NsJOpQRnRpMloSY/Psychologists.Services?type=design&node-id=0-1&mode=design&t=yo2vZvDwGE29z7w9-0)
+Technical
+task&nbsp;&nbsp;&nbsp;[<img align="center" src="/assets/gdocs.svg" alt="gdocs" width="22" height="30" />](https://docs.google.com/document/d/1PrTxBn6HQbb0Oz17g5_zvyLGIOZg0TIP3HPaEEp6ZLs/edit)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Layout&nbsp;[<img align="center" src="/assets/figma.svg" alt="gdocs" width="30" height="30" />](https://www.figma.com/file/I5vjNb0NsJOpQRnRpMloSY/Psychologists.Services?type=design&node-id=0-1&mode=design&t=yo2vZvDwGE29z7w9-0)
 
 ## Table of Content
 
 - [Features](#features)
 - [Getting Started](#getting-started)
-- [Technologies and packages Used](#technologies-and-packages-used)
+- [Technologies Used](#technologies-used)
 - [Contributor](#contributor)
 
 ## Features
@@ -59,6 +59,6 @@ To run the application locally, follow these steps:
 
 ## Contributor
 
-- Serhii Kozhanov
-  [<img style='vertical-align: middle' src="/assets/github.svg" alt="gdocs" width="30" height="30" />](https://github.com/LIGHT131313)&nbsp;
-  [<img style='vertical-align: middle' src="/assets/linkedin.svg" alt="gdocs" width="30" height="30" />](https://www.linkedin.com/in/serhii-kozhanov/)
+- Serhii Kozhanov&nbsp;
+  [<img align="center"  src="/assets/github.svg" alt="gdocs" width="30" height="30" />](https://github.com/LIGHT131313)&nbsp;
+  [<img align="center"  src="/assets/linkedin.svg" alt="gdocs" width="30" height="30" />](https://www.linkedin.com/in/serhii-kozhanov/)
