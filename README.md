@@ -75,6 +75,6 @@ The app consists of 3 pages:
 <img src="./assets/github.svg" alt="gdocs" width="50" height="50"/>
 </a>
 <a href="https://www.linkedin.com/in/serhii-kozhanov/" target="_blank" rel="noreferrer">
-<img src="./assets/linkedin.svg" alt="figma" width="50" height="50"/>
+<img src="./assets/linkedin.svg" alt="linkedin" width="50" height="50"/>
 </a>
 </div>
