@@ -1,10 +1,13 @@
 import { createGlobalStyle } from 'styled-components';
 import 'modern-normalize';
+import interBold from '../fonts/Inter-Bold.ttf';
+import interMedium from '../fonts/Inter-Medium.ttf';
+import interRegular from '../fonts/Inter-Regular.ttf';
 
 export const GlobalStyle = createGlobalStyle`
 body {
   margin: 0;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -51,4 +54,26 @@ button {
 a {
   text-decoration: none; 
   cursor: pointer;
-}`;
+}
+
+@font-face {
+ font-family: "InterBold";
+ src: local("InterBold"),
+  url(${interBold}) format("truetype");
+ font-weight: bold;
+}
+
+@font-face {
+ font-family: "InterMedium";
+ src: local("InterMedium"),
+  url(${interMedium}) format("truetype");
+ font-weight: medium;
+}
+
+@font-face {
+ font-family: "InterRegular";
+ src: local("InterRegular"),
+  url(${interRegular}) format("truetype");
+ font-weight: regular;
+}
+`;

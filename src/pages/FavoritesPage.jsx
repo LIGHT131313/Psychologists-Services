@@ -1,5 +1,5 @@
-// import { Home } from 'components/Home/Home';
+import { Favorites } from 'components/Favorites/Favorites';
 
 export default function FavoritesPage() {
-  return <p>Favorites</p>;
+  return <Favorites />;
 }

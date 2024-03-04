@@ -1,6 +1,5 @@
-// import { Home } from 'components/Home/Home';
+import { Psychologists } from 'components/Psychologists/Psychologists';
 
 export default function PsychologistsPage() {
-  //   return <Home />;
-  return <p>Psychologists</p>;
+  return <Psychologists />;
 }
