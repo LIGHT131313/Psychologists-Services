@@ -1,6 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 import 'modern-normalize';
 import interBold from '../fonts/Inter-Bold.ttf';
+import interSemiBold from '../fonts/Inter-SemiBold.ttf';
 import interMedium from '../fonts/Inter-Medium.ttf';
 import interRegular from '../fonts/Inter-Regular.ttf';
 
@@ -57,23 +58,26 @@ a {
 }
 
 @font-face {
- font-family: "InterBold";
- src: local("InterBold"),
-  url(${interBold}) format("truetype");
- font-weight: bold;
+ font-family: "Inter";
+ src: url(${interBold}) format("truetype");
+font-weight: 700;
 }
 
 @font-face {
- font-family: "InterMedium";
- src: local("InterMedium"),
-  url(${interMedium}) format("truetype");
- font-weight: medium;
+ font-family: "Inter";
+ src: url(${interSemiBold}) format("truetype");
+ font-weight: 600;
 }
 
 @font-face {
- font-family: "InterRegular";
- src: local("InterRegular"),
-  url(${interRegular}) format("truetype");
- font-weight: regular;
+ font-family: "Inter";
+ src: url(${interMedium}) format("truetype");
+ font-weight: 500;
+}
+
+@font-face {
+ font-family: "Inter";
+ src: url(${interRegular}) format("truetype");
+ font-weight: 400;
 }
 `;

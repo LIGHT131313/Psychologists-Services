@@ -6,6 +6,7 @@ export const Container = styled.div`
   max-width: 375px;
   padding-left: 20px;
   padding-right: 20px;
+  background-color: ${p => p.theme.colors.homeBackground};
 
   @media screen and (min-width: 768px) {
     max-width: 768px;
