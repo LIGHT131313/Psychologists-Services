@@ -1,6 +1,7 @@
 export const theme = {
   colors: {
     logo: '#191A15',
+    border: '#191A151A',
     input: '#3470FF',
     hover: '255EE8',
     dropDown: '#FFF',

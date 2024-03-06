@@ -6,8 +6,7 @@ export const Header = styled.header`
   justify-content: center;
   gap: 12px;
   padding: 8px 0;
-  margin-bottom: 16px;
-  border-bottom: 1px solid black;
+  border: 1px solid ${p => p.theme.colors.border};
 
   > nav {
     display: flex;

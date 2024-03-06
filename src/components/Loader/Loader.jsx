@@ -1,4 +1,5 @@
 import { ThreeDots } from 'react-loader-spinner';
+import { theme } from 'theme';
 
 export const Loader = () => {
   return (
@@ -10,9 +11,8 @@ export const Loader = () => {
       wrapperStyle={{
         justifyContent: 'center',
       }}
-      wrapperClassName=""
       visible={true}
-      color="#3f51b5"
+      color={`${theme.colors.input}`}
     />
   );
 };

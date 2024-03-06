@@ -33,7 +33,7 @@ ul {
   margin: 0;
 }
 
-img {
+img, picture {
   display: block;
   max-width: 100%;
   object-fit: cover;
