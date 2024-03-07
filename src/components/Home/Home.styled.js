@@ -61,6 +61,11 @@ export const HomeBtn = styled(Link)`
   border-radius: 30px;
   padding: 18px 0 18px 0;
   background-color: ${p => p.theme.colors.input};
+  transition: 250ms ${p => p.theme.transition};
+
+  &:is(:hover, :focus) {
+    background-color: ${p => p.theme.colors.hover};
+  }
 `;
 
 export const HomeBtnWrap = styled.div`
@@ -119,11 +124,11 @@ export const UsersBlock = styled.div`
   height: 48px;
   transform: rotate(15deg);
   top: 38px;
-  right: -38px;
+  right: -18px;
   border-radius: 10px;
   background: #fbc75e;
 
-  @media screen and (min-width: 768px) and (max-width: 1439px) {
+  @media screen and (min-width: 768px) {
     left: 454px;
   }
 `;
