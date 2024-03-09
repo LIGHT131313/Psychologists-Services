@@ -19,7 +19,7 @@ export const ButtonLogin = styled.button`
   color: ${p => p.theme.colors.logo};
   transition: 250ms ${p => p.theme.transition};
 
-  &:is(:hover, :focus) {
+  &:is(:hover) {
     background-color: ${p => p.theme.colors.hover};
     color: ${p => p.theme.colors.homeBackground};
     border: 0;
@@ -38,7 +38,7 @@ export const ButtonReg = styled.button`
   color: ${p => p.theme.colors.homeBackground};
   transition: 250ms ${p => p.theme.transition};
 
-  &:is(:hover, :focus) {
+  &:is(:hover) {
     background-color: ${p => p.theme.colors.hover};
   }
 `;

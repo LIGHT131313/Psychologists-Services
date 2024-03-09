@@ -3,6 +3,8 @@ export const theme = {
     logo: '#191A15',
     border: '#191A151A',
     borderBtn: '#191A1533',
+    logInText: '#191A1580',
+    backDrop: '#191A1599',
     input: '#3470FF',
     hover: '#255EE8',
     dropDown: '#FFF',
