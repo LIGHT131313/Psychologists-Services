@@ -48,6 +48,7 @@ export const HeadDescriptionWrap = styled.div`
   margin-bottom: 8px;
   width: 100%;
 `;
+
 export const HeadText = styled.p`
   color: ${p => p.theme.colors.category};
   font-weight: 500;
@@ -84,6 +85,7 @@ export const RatingPriceText = styled.p`
     content: none;
   }
 `;
+
 export const RatingPriceTextSpan = styled.span`
   margin-left: 4px;
   color: ${p => p.theme.colors.price};
@@ -94,12 +96,6 @@ export const SvgStar = styled.svg`
   height: 16px;
   margin-right: 8px;
 `;
-// export const FavoriteIconStyle = styled.svg`
-//   width: 26px;
-//   height: 26px;
-//   fill: none;
-//   stroke: ${p => p.theme.colors.logo};
-// `;
 
 export const LabelCheck = styled.label`
   position: relative;
