@@ -1,5 +1,10 @@
-import { Psychologists } from 'components/Psychologists/Psychologists';
+import { PsychologistsList } from 'components/PsychologistsList/PsychologistsList';
+import { Container } from 'components/Container.styled';
 
 export default function PsychologistsPage() {
-  return <Psychologists />;
+  return (
+    <Container>
+      <PsychologistsList />
+    </Container>
+  );
 }

@@ -1,4 +1,6 @@
-import { getAuth, createUserWithEmailAndPassword } from 'firebase/auth';
+import { useDispatch } from 'react-redux';
+import { auth } from '../../firebase';
+import { setUser } from '../../redux/auth/authSlice';
 import {
   ModalBtnLogIn,
   LogInText,
@@ -12,24 +14,45 @@ import { RegistrationFormSchema } from 'schemas';
 import { PasswordInput } from 'components/PasswordInput/PasswordInput';
 
 export const RegistrationModal = () => {
-  // const [email, setEmail] = useState('');
-  // const [password, setPassword] = useState('');
-
-  // const dispatch = useDispatch();
-
+  const dispatch = useDispatch();
   // const onLogIn = values => dispatch(logIn(values));
 
-  const handleRegistration = ({ email, password }) => {
-    const auth = getAuth();
-    createUserWithEmailAndPassword(auth, email, password)
-      .then(userCredential => {
-        console.log(userCredential);
-        const user = userCredential.user;
-        console.log('Registered:', user);
-      })
-      .catch(error => {
-        console.log('Error:', error);
-      });
+  const handleRegistration = async ({ name, email, password }) => {
+    try {
+      const { user } = await auth.createUserWithEmailAndPassword(
+        email,
+        password
+      );
+
+      if (user) {
+        await user.updateProfile({
+          displayName: name,
+        });
+        const userToken = await user.getIdToken();
+
+        dispatch(
+          setUser({
+            id: user.uid,
+            name: user.displayName,
+            email: user.email,
+            token: userToken,
+          })
+        );
+      }
+
+      console.log('Registration successful:', user);
+    } catch (error) {
+      console.error('Registration failed:', error.message);
+      if (error.code === 'auth/email-already-in-use') {
+        alert('The email address is already in use');
+      } else if (error.code === 'auth/invalid-email') {
+        alert('The email address is not valid.');
+      } else if (error.code === 'auth/operation-not-allowed') {
+        alert('Operation not allowed.');
+      } else if (error.code === 'auth/weak-password') {
+        alert('The password is too weak.');
+      }
+    }
   };
 
   return (
@@ -49,9 +72,19 @@ export const RegistrationModal = () => {
       >
         <StyledForm>
           <ErrorMsg name="name" component="div" />
-          <StyledLabel name="name" type="text" placeholder="Name" />
+          <StyledLabel
+            name="name"
+            type="text"
+            placeholder="Name"
+            autoComplete="off"
+          />
           <ErrorMsg name="email" component="div" />
-          <StyledLabel name="email" type="email" placeholder="Email" />
+          <StyledLabel
+            name="email"
+            type="email"
+            placeholder="Email"
+            autoComplete="off"
+          />
           <ErrorMsg name="password" component="div" />
           <PasswordInput />
           <ModalBtnLogIn type="submit">Sign Up</ModalBtnLogIn>

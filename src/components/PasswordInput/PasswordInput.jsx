@@ -32,6 +32,7 @@ export const PasswordInput = () => {
         name="password"
         type={showPassword ? 'text' : 'password'}
         placeholder="Password"
+        autoComplete="off"
       />
 
       <ShowPasswordButton onClick={togglePasswordVisibility} type="button">

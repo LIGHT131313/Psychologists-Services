@@ -1,5 +1,10 @@
-import { Favorites } from 'components/Favorites/Favorites';
+import { FavoritesList } from 'components/FavoritesList/FavoritesList';
+import { Container } from 'components/Container.styled';
 
 export default function FavoritesPage() {
-  return <Favorites />;
+  return (
+    <Container>
+      <FavoritesList />
+    </Container>
+  );
 }

@@ -7,6 +7,11 @@ Technical
 task&nbsp;&nbsp;&nbsp;[<img align="center" src="/assets/gdocs.svg" alt="gdocs" width="22" height="30" />](https://docs.google.com/document/d/1PrTxBn6HQbb0Oz17g5_zvyLGIOZg0TIP3HPaEEp6ZLs/edit)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Layout&nbsp;[<img align="center" src="/assets/figma.svg" alt="gdocs" width="30" height="30" />](https://www.figma.com/file/I5vjNb0NsJOpQRnRpMloSY/Psychologists.Services?type=design&node-id=0-1&mode=design&t=yo2vZvDwGE29z7w9-0)
 
+This project was created with
+[Create React App](https://github.com/facebookincubator/create-react-app). To
+get acquainted and configure additional features
+[refer to documentation](https://create-react-app.dev/docs/getting-started/).
+
 ## Table of Content
 
 - [Features](#features)
@@ -54,8 +59,10 @@ To run the application locally, follow these steps:
 - React Router
 - Redux Toolkit
 - Redux-persist
-- Axios (for API requests)
+- Firebase
 - Styled-components
+- Formik
+- Yup
 
 ## Contributor
 
